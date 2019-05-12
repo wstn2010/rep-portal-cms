@@ -21,6 +21,19 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "goods"
+    label: "商材"
+    folder: "src/pages/goods"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "商材名", name: "title", widget: "string"}
+      - {label: "概要", name: "description", widget: "text"}
+      - {label: "画像", name: "featuredimage", widget: image}
+      - {label: "詳細", name: "body", widget: "markdown"}
+      - {label: "タグ", name: "tags", widget: "list"}
+
   - name: "pages"
     label: "Pages"
     files:
