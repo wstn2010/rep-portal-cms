@@ -34,6 +34,18 @@ collections:
       - {label: "詳細", name: "body", widget: "markdown"}
       - {label: "タグ", name: "tags", widget: "list"}
 
+  - name: "reps"
+    label: "セールスレップ"
+    folder: "src/pages/reps"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "氏名", name: "title", widget: "string"}
+      - {label: "所在地", name: "location", widget: "string"}
+      - {label: "連絡先", name: "contact", widget: "string"}
+      - {label: "自己紹介", name: "description", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
