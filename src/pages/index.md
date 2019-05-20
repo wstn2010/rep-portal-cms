@@ -1,21 +1,18 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: レップポータルのキャッチをここに
 image: /img/home-jumbotron.jpg
-heading: レップポータルのキャッチをここに
-subheading: Support sustainable farming while enjoying a cup
+heading: レップポータルのしくみ
+subheading: レップが取り扱う商材
 mainpitch:
-  title: Why Kaldi
+  title: なぜレップポータル
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    レップポータルは、素晴らしい商材はただ良いだけではないと信じているすべての人のためのサイトです。
+    そこらでは目にすることは難しい小規模な生産者から提供される商材を集めました。
+    利益の一部は、彼らのコミュニティに再投資されます。
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  レップポータルには、参加しているセールスレップが取り扱っている商材が掲載されています。
+  商材に興味を持ったら、セールスレップに連絡してみましょう。
 intro:
   blurbs:
     - image: /img/coffee.png

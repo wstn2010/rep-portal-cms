@@ -15,6 +15,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "商材名", name: "title", widget: "string"}
+      - {label: "セールスレップ", name: "rep", widget: "relation", collection: "reps", valueField: "title", searchFields: ["title", "location"]}
       - {label: "概要", name: "description", widget: "text"}
       - {label: "画像", name: "featuredimage", widget: image}
       - {label: "詳細", name: "body", widget: "markdown"}
