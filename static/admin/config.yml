@@ -17,7 +17,7 @@ collections:
       - {label: "商材名", name: "title", widget: "string"}
       - {label: "セールスレップ", name: "rep", widget: "relation", collection: "reps", valueField: "title", searchFields: ["title", "location"]}
       - {label: "概要", name: "description", widget: "text"}
-      - {label: "画像", name: "featuredimage", widget: image}
+      - {label: "画像", name: "featuredimage", widget: "image"}
       - {label: "詳細", name: "body", widget: "markdown"}
       - {label: "タグ", name: "tags", widget: "list"}
 
@@ -27,12 +27,13 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "rep-info"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "氏名", name: "title", widget: "string"}
       - {label: "所在地", name: "location", widget: "string"}
       - {label: "連絡先", name: "contact", widget: "string"}
       - {label: "自己紹介", name: "description", widget: "markdown"}
+      - {label: "画像", name: "featuredimage", widget: "image"}
 
   - name: "pages"
     label: "Pages"
