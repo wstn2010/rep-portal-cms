@@ -1,0 +1,11 @@
+---
+templateKey: goods-info
+date: 2019-06-24T09:12:39.352Z
+title: AEGIS GATE         イージスゲート
+rep: 本庄　一裕
+description: "会員名　\t個人\t法人・団体\tSIAL\n会員番号\t0７6756\t\t\n登録日\t平成31年1月31日\t\t\n登録対象\t会社\t\t\n\t製品\t\t\nカテゴリ\t環境\t教育\t健康\n契約形態\t\tオープンドア\tレップ\n対象製品・技術\t1\tセキュリティー\t\n\t2\t\t\n\t3\t\t\n\t\t\t\n対象製品・技術サマリ\t\t\t\n市場\t\t個人、企業\t\n大枠のキーワード\t\tセキュリティー対策\t\n新規性\t\t暗証番号・カード・スマホ\t\n優秀性\t\t設置容易・工数削減\t\n市場性\t\t防犯意識がまだ低い\t\n特徴\t\t既存の鍵穴と互換あり\t\n差別化\t\t電池切れ対策あり\t\n価格\t\t本体価格￥59,000\t\n"
+featuredimage: /img/イージス.jpg
+---
+URL 参照
+
+http://www.sial.co.jp/AEGISGATE.html
